@@ -1,4 +1,4 @@
-References,Item,Vendor,SKU,Purchase quantity,Unit price USD,Quantity used,Source,Notes
+References,Item,Vendor,SKU,Quantity,Unit price USD,Quantity used,URL,Purpose
 DISP1 DISP2,NeoPixel FeatherWing 4x8 RGB,Adafruit,2945,2,14.95,2,https://www.adafruit.com/product/2945,Two independent GPIO data inputs; built-in level shifters
 DISP3,1.14 inch ST7789 TFT 240x135,Adafruit,4383,1,9.95,1,https://www.adafruit.com/product/4383,
 U1,Pico RP2040 with loose headers,Adafruit,4883,1,5,1,https://www.adafruit.com/product/4883,Solder directly; supplied 2x20 headers
