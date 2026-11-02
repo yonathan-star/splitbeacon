@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "SplitBeacon") (type "KiCad") (uri "${KIPRJMOD}/../SplitBeacon.pretty") (options "") (descr "Local project footprints")))

@@ -1,0 +1,10 @@
+{
+  "late": [
+    "Here is a closer look at the SplitBeacon design files.",
+    "The timing core excludes pauses and saves up to sixty four split records.",
+    "The board uses protected external power with a capped RGB load. Real current and temperature still need measurement.",
+    "The printable enclosure includes separate retainers and a tolerance coupon. Printed fit remains untested.",
+    "These are existing source files and design renders, not footage of working hardware.",
+    "This retrospective walkthrough uses synthetic narration from my local personal voice model."
+  ]
+}

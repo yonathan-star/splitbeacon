@@ -1,0 +1,15 @@
+test_adc_endpoints (__main__.TimingTests.test_adc_endpoints) ... ok
+test_all_display_pages_clamp_every_channel (__main__.TimingTests.test_all_display_pages_clamp_every_channel) ... ok
+test_corrupt_saved_data (__main__.TimingTests.test_corrupt_saved_data) ... ok
+test_debounce (__main__.TimingTests.test_debounce) ... ok
+test_history_bound_and_reset (__main__.TimingTests.test_history_bound_and_reset) ... ok
+test_lap_latches_target_and_rejects_double_press (__main__.TimingTests.test_lap_latches_target_and_rejects_double_press) ... ok
+test_matrix_permutation (__main__.TimingTests.test_matrix_permutation) ... ok
+test_pause_excludes_wall_time (__main__.TimingTests.test_pause_excludes_wall_time) ... ok
+test_single_cue_per_lap (__main__.TimingTests.test_single_cue_per_lap) ... ok
+test_stop_blocks_lap (__main__.TimingTests.test_stop_blocks_lap) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+OK

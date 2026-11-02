@@ -1,0 +1,18 @@
+{
+  "idea": [
+    "This is SplitBeacon, my displays week project.",
+    "The idea is a lap timer that makes pacing visible without unlocking a phone.",
+    "Two RGB panels show interval progress and recent split history, while a small screen shows exact times.",
+    "Buttons record laps, pause the timer, and change views. Knobs set the target and brightness.",
+    "These images are concept and CAD previews from the project files, not a physical prototype.",
+    "The next step is assembly and real hardware testing. This narration uses my existing local synthetic voice model."
+  ],
+  "progress": [
+    "This is the SplitBeacon design walkthrough, using the actual project files.",
+    "The custom controller connects a Pico, two RGB panels, a TFT, buttons and analog controls.",
+    "The timer keeps paused time out of a split and latches the target at the start of each lap.",
+    "The package contains firmware checks, a routed board, fabrication exports, and printable enclosure parts.",
+    "The recorded checks do not establish physical performance. Current draw, display orientation, and printed fit still need bench testing.",
+    "This is a design walkthrough, not evidence of five hours worked. The narration is synthetic."
+  ]
+}

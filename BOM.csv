@@ -1,0 +1,21 @@
+References,Item,Vendor,SKU,Purchase quantity,Unit price USD,Quantity used,Source,Notes
+DISP1 DISP2,NeoPixel FeatherWing 4x8 RGB,Adafruit,2945,2,14.95,2,https://www.adafruit.com/product/2945,Two independent GPIO data inputs; built-in level shifters
+DISP3,1.14 inch ST7789 TFT 240x135,Adafruit,4383,1,9.95,1,https://www.adafruit.com/product/4383,
+U1,Pico RP2040 with loose headers,Adafruit,4883,1,5,1,https://www.adafruit.com/product/4883,Solder directly; supplied 2x20 headers
+RV1 RV2,10k linear panel potentiometer,Adafruit,562,2,0.95,2,https://www.adafruit.com/product/562,
+SW1 SW2 SW3,6mm tactile button 20 pack,Adafruit,367,1,2.5,3,https://www.adafruit.com/product/367,17 spare buttons
+C1 C2 C4 C5,100nF ceramic capacitor 10 pack,Adafruit,753,1,1.95,4,https://www.adafruit.com/product/753,Six spare capacitors; 2.54mm leads
+PSU,5V 4A regulated power supply,Adafruit,1466,1,14.95,1,https://www.adafruit.com/product/1466,2.1mm centre positive; external low-voltage input
+DC1,2.1mm female jack to screw terminal,Adafruit,368,1,2,1,https://www.adafruit.com/product/368,
+BZ1,PS1240 passive piezo,Adafruit,160,1,1.5,1,https://www.adafruit.com/product/160,
+LDR1,CdS photocell,Adafruit,161,1,0.95,1,https://www.adafruit.com/product/161,
+HARNESS,40 female/female 150mm jumper wires,Adafruit,266,1,3.95,27,https://www.adafruit.com/product/266,Trim and solder bare sensor/pot ends; retain female board ends
+F1,MF-R050 500mA radial PTC,DigiKey,MF-R050-ND,1,0.47,1,https://www.digikey.com/en/products/detail/bourns-inc/MF-R050/259965,5.1mm pitch
+C3,EEU-FR1A102 1000uF 10V,DigiKey,P124221-ND,1,1.15,1,https://www.digikey.com/en/products/detail/panasonic-industry/EEU-FR1A102/9921022,10mm body; 5mm pitch; 17.5mm max height
+R1 R2,330 ohm axial 1/4W 5%,DigiKey,CF14JT330RCT-ND,2,0.1,2,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT330R/1741399,Cart has separate R1 and R2 lines
+R3 R7,100k axial 1/4W 5%,DigiKey,CF14JT100KCT-ND,2,0.1,2,https://www.digikey.com/en/products?keywords=CF14JT100K,Cart has separate R3 and R7 lines
+R4 R6,10k axial 1/4W 5%,DigiKey,CF14JT10K0CT-ND,2,0.1,2,https://www.digikey.com/en/products?keywords=CF14JT10K0,
+R5,1k axial 1/4W 5%,DigiKey,CF14JT1K00CT-ND,1,0.1,1,https://www.digikey.com/en/products?keywords=CF14JT1K00,
+D1,1N5817-T Schottky diode DO41,DigiKey,1N5817DICT-ND,1,0.37,1,https://www.digikey.com/en/products/detail/diodes-incorporated/1N5817-T/22052,
+CASE,M3x6 Phillips pan-head screw,DigiKey,335-1156-ND,16,0.473,16,https://www.digikey.com/en/products/detail/apm-hexseal/RM3X6MM-2701/612968,4 PCB + 4 lid + 8 display retainers; cart rounds line to $7.57
+PRINT,Black PLA 1.75mm 1kg spool,Polymaker,CA19006,1,18.99,1,https://shop.polymaker.com/products/panchroma-pla?variant=44863271731257,Full spool purchase; print consumes only a portion

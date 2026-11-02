@@ -1,0 +1,395 @@
+{
+  "controller": {
+    "width": 100,
+    "height": 100,
+    "parts": [
+      {
+        "ref": "U1",
+        "value": "Raspberry Pi Pico RP2040",
+        "pins": {
+          "1": "NC_GP0",
+          "2": "NC_GP1",
+          "3": "GND",
+          "4": "NC_GP2",
+          "5": "NC_GP3",
+          "6": "GND",
+          "7": "NC_GP4",
+          "8": "RUN_BTN",
+          "9": "LAP_BTN",
+          "10": "PAGE_BTN",
+          "11": "GND",
+          "12": "BEEP",
+          "13": "NC_GP9",
+          "14": "NC_GP10",
+          "15": "TFT_BL",
+          "16": "GND",
+          "17": "TFT_DC",
+          "18": "TFT_RST",
+          "19": "PIXEL2_3V3",
+          "20": "PIXEL_3V3",
+          "21": "TFT_MISO",
+          "22": "TFT_CS",
+          "23": "GND",
+          "24": "TFT_SCK",
+          "25": "TFT_MOSI",
+          "26": "NC_GP20",
+          "27": "NC_GP21",
+          "28": "GND",
+          "29": "NC_GP22",
+          "30": "RUN",
+          "31": "BRIGHTNESS",
+          "32": "AMBIENT",
+          "33": "GND",
+          "34": "TARGET",
+          "35": "NC_ADCREF",
+          "36": "+3V3",
+          "37": "NC_3V3EN",
+          "38": "GND",
+          "39": "VSYS",
+          "40": "NC_VBUS"
+        },
+        "foot": "SplitBeacon:Pico_Socket",
+        "x": 12,
+        "y": 8,
+        "rot": 0,
+        "uuid": "8a2350af-64ac-4f32-855c-d41a7d393f8d"
+      },
+      {
+        "ref": "J1",
+        "value": "5V REGULATED INPUT",
+        "pins": {
+          "1": "+5V_IN",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:PinHeader_1x02_P2.54mm_Vertical",
+        "x": 85,
+        "y": 10,
+        "rot": 0,
+        "uuid": "230d2856-11f7-4341-aa5f-b99312c3b90d"
+      },
+      {
+        "ref": "F1",
+        "value": "MF-R050 500mA PTC",
+        "pins": {
+          "1": "+5V_IN",
+          "2": "+5V_DISPLAY"
+        },
+        "foot": "SplitBeacon:PTC_5mm",
+        "x": 73,
+        "y": 8,
+        "rot": 0,
+        "uuid": "f9d51ddb-bf2c-46c9-83be-bdac8e6b9144"
+      },
+      {
+        "ref": "D1",
+        "value": "1N5817 VSYS OR-ing",
+        "pins": {
+          "1": "VSYS",
+          "2": "+5V_DISPLAY"
+        },
+        "foot": "SplitBeacon:D_DO-41_SOD81_P10.16mm_Horizontal",
+        "x": 38,
+        "y": 8,
+        "rot": 0,
+        "uuid": "d06371c9-f7a6-416f-9b7d-f549f2a87aff"
+      },
+      {
+        "ref": "J2",
+        "value": "RGB MATRIX DIN HARNESS",
+        "pins": {
+          "1": "+5V_DISPLAY",
+          "2": "GND",
+          "3": "PIXEL_DATA"
+        },
+        "foot": "SplitBeacon:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 85,
+        "y": 28,
+        "rot": 0,
+        "uuid": "3ee2b0f3-29dd-4483-b9c2-d347c695ebbc"
+      },
+      {
+        "ref": "J8",
+        "value": "RGB RIGHT HARNESS",
+        "pins": {
+          "1": "+5V_DISPLAY",
+          "2": "GND",
+          "3": "PIXEL2_DATA"
+        },
+        "foot": "SplitBeacon:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 85,
+        "y": 38,
+        "rot": 0,
+        "uuid": "a3f43c05-6409-41f0-b952-e0c5fb89a5fe"
+      },
+      {
+        "ref": "J3",
+        "value": "TFT LOGIC HARNESS",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND",
+          "3": "TFT_SCK",
+          "4": "TFT_MOSI",
+          "5": "TFT_CS",
+          "6": "TFT_DC",
+          "7": "TFT_RST",
+          "8": "TFT_BL",
+          "9": "TFT_MISO"
+        },
+        "foot": "SplitBeacon:PinHeader_1x09_P2.54mm_Vertical",
+        "x": 85,
+        "y": 48,
+        "rot": 0,
+        "uuid": "90f0e6fc-4426-4d09-af5a-9b2781c138ab"
+      },
+      {
+        "ref": "J4",
+        "value": "10K TARGET POT",
+        "pins": {
+          "1": "+3V3",
+          "2": "TARGET",
+          "3": "GND"
+        },
+        "foot": "SplitBeacon:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 44,
+        "y": 52,
+        "rot": 0,
+        "uuid": "42bbaa1e-6133-4c7b-a6bc-2446f584c4d5"
+      },
+      {
+        "ref": "J5",
+        "value": "10K BRIGHTNESS POT",
+        "pins": {
+          "1": "+3V3",
+          "2": "BRIGHTNESS",
+          "3": "GND"
+        },
+        "foot": "SplitBeacon:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 63,
+        "y": 52,
+        "rot": 0,
+        "uuid": "910ce2d2-bb35-4120-a2f4-c6255e713148"
+      },
+      {
+        "ref": "J6",
+        "value": "PASSIVE PIEZO",
+        "pins": {
+          "1": "PIEZO_OUT",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:PinHeader_1x02_P2.54mm_Vertical",
+        "x": 71,
+        "y": 74,
+        "rot": 0,
+        "uuid": "069ddcbc-c71b-4536-abdb-d3bd0e9db3e5"
+      },
+      {
+        "ref": "J7",
+        "value": "LDR AT PANEL",
+        "pins": {
+          "1": "+3V3",
+          "2": "AMBIENT"
+        },
+        "foot": "SplitBeacon:PinHeader_1x02_P2.54mm_Vertical",
+        "x": 72,
+        "y": 57,
+        "rot": 0,
+        "uuid": "2f71d109-c9b8-4d2b-b934-207e00eb69f0"
+      },
+      {
+        "ref": "R1",
+        "value": "330R",
+        "pins": {
+          "1": "PIXEL_3V3",
+          "2": "PIXEL_DATA"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 67,
+        "y": 32,
+        "rot": 0,
+        "uuid": "cb00ebcd-5d81-4b7b-a564-bb6db6f259c5"
+      },
+      {
+        "ref": "R2",
+        "value": "330R",
+        "pins": {
+          "1": "PIXEL2_3V3",
+          "2": "PIXEL2_DATA"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 52,
+        "y": 36,
+        "rot": 0,
+        "uuid": "baaa612d-987d-4bd1-88b0-020d5af691e6"
+      },
+      {
+        "ref": "R7",
+        "value": "100k",
+        "pins": {
+          "1": "PIXEL2_3V3",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 35,
+        "y": 37,
+        "rot": 0,
+        "uuid": "c6994fae-ea8d-4ed6-bfdb-90d05cb46572"
+      },
+      {
+        "ref": "R3",
+        "value": "100k",
+        "pins": {
+          "1": "PIXEL_3V3",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 37,
+        "y": 45,
+        "rot": 0,
+        "uuid": "1a12cbc9-2a4a-4b8b-a213-641c33a8b1f7"
+      },
+      {
+        "ref": "R4",
+        "value": "10k",
+        "pins": {
+          "1": "AMBIENT",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 68,
+        "y": 64,
+        "rot": 0,
+        "uuid": "cfab6d5a-783b-407e-bd3a-57076a60c6bb"
+      },
+      {
+        "ref": "R5",
+        "value": "1k",
+        "pins": {
+          "1": "BEEP",
+          "2": "PIEZO_OUT"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 56,
+        "y": 72,
+        "rot": 0,
+        "uuid": "8077154b-97fc-4d16-8df8-1df08925c17d"
+      },
+      {
+        "ref": "R6",
+        "value": "10k",
+        "pins": {
+          "1": "RUN",
+          "2": "+3V3"
+        },
+        "foot": "SplitBeacon:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 37,
+        "y": 14,
+        "rot": 0,
+        "uuid": "c4be97d3-7874-4ad8-ba65-0c1ab780a1cf"
+      },
+      {
+        "ref": "C1",
+        "value": "100nF",
+        "pins": {
+          "1": "+5V_DISPLAY",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:C_Disc_D3.0mm_W1.6mm_P2.50mm",
+        "x": 61,
+        "y": 15,
+        "rot": 0,
+        "uuid": "9205b3f8-77bd-41af-a38e-9f251f72f48d"
+      },
+      {
+        "ref": "C2",
+        "value": "100nF",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:C_Disc_D3.0mm_W1.6mm_P2.50mm",
+        "x": 35,
+        "y": 64,
+        "rot": 0,
+        "uuid": "f45be59b-aa0b-4ded-b526-89dba4d141eb"
+      },
+      {
+        "ref": "C3",
+        "value": "1000uF 10V",
+        "pins": {
+          "1": "+5V_DISPLAY",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:CP_Radial_D10.0mm_P5.00mm",
+        "x": 73,
+        "y": 20,
+        "rot": 0,
+        "uuid": "e95614a1-0f8d-466c-a77f-40d0b7e3e2ec"
+      },
+      {
+        "ref": "C4",
+        "value": "100nF",
+        "pins": {
+          "1": "BRIGHTNESS",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:C_Disc_D3.0mm_W1.6mm_P2.50mm",
+        "x": 53,
+        "y": 63,
+        "rot": 0,
+        "uuid": "e6a15afd-abd1-4f6d-ba67-533951ad4a39"
+      },
+      {
+        "ref": "C5",
+        "value": "100nF",
+        "pins": {
+          "1": "AMBIENT",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:C_Disc_D3.0mm_W1.6mm_P2.50mm",
+        "x": 58,
+        "y": 43,
+        "rot": 0,
+        "uuid": "f8fb153e-0ba5-4078-9669-8ba3f6b78af7"
+      },
+      {
+        "ref": "SW1",
+        "value": "RUN STOP",
+        "pins": {
+          "1": "RUN_BTN",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:Button_6mm",
+        "x": 12,
+        "y": 85,
+        "rot": 0,
+        "uuid": "c04f8bdf-42e0-46d2-895b-2e429f5447c7"
+      },
+      {
+        "ref": "SW2",
+        "value": "LAP",
+        "pins": {
+          "1": "LAP_BTN",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:Button_6mm",
+        "x": 36,
+        "y": 85,
+        "rot": 0,
+        "uuid": "a875c97f-2f8a-4f13-b1bb-69b3614824fa"
+      },
+      {
+        "ref": "SW3",
+        "value": "VIEW",
+        "pins": {
+          "1": "PAGE_BTN",
+          "2": "GND"
+        },
+        "foot": "SplitBeacon:Button_6mm",
+        "x": 60,
+        "y": 85,
+        "rot": 0,
+        "uuid": "969b98be-c3f5-431e-a10d-9ad9be412589"
+      }
+    ]
+  }
+}
